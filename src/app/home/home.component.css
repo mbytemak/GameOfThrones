@@ -1,0 +1,36 @@
+.flex{
+
+
+    background-color: #f1f1f1;
+    max-height: 600px;
+
+  border:5px solid red;
+  height: 20vh;
+  width:200px;
+
+}
+.flex-container{
+
+
+
+}
+.house-container{
+
+
+    display: flex;
+
+border: 3px solid black;
+  
+
+justify-content:  space-evenly;
+flex-wrap: wrap;
+height: 70vh;
+align-items:center;
+
+background-size: 100% 100%;
+
+background-image:url("/assets/rsz_03d441e79891c5ccef5c34f4fb44a5d9_1.jpg");
+
+width: 100%;
+margin-top: 10px ;
+}

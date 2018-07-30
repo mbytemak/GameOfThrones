@@ -1,0 +1,37 @@
+.flex{
+
+
+    background-color: #f1f1f1;
+    max-height: 50vh;
+
+  
+  height: 15vh;
+  width:200px;
+
+}
+.flex-container{
+
+    
+
+
+}
+.house-container{
+
+
+    display: flex;
+
+
+  
+
+justify-content:  space-evenly;
+flex-wrap: wrap;
+
+align-items:center;
+
+
+
+
+
+
+margin-top: 10px ;
+}

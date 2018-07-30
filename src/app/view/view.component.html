@@ -1,0 +1,61 @@
+
+<html>
+
+
+<body>
+
+
+        <div class="container" >
+                <div class="content" > 
+            <td class="size" >
+                <tr>BookName:
+             {{details.name|json}}
+                </tr>
+                <tr>
+            ISBN :{{details.isbn|json}}
+                </tr>
+            <tr>
+            
+               Country: {{details.country|json}}
+            </tr>
+            <tr>
+            
+               Publisher: {{details.publisher|json}}
+            </tr>
+            <tr>
+            
+               Authors: {{details.authors[0]|json}}
+            </tr>
+            <tr>
+            
+            Released: {{details.released|json}}
+            
+            </tr>
+            <tr>
+            
+                Number of pages :{{details.numberOfPages|json}}
+            </tr>
+            <tr>
+            Media Type: {{details.mediaType|json}}
+            </tr>
+            </td>
+            
+            
+            
+            </div>
+            
+            </div>
+
+
+
+</body>
+
+
+
+
+</html>
+
+
+
+
+

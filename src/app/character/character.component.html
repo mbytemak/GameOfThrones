@@ -1,0 +1,35 @@
+
+<div class="flex-container house-container"> 
+
+
+
+        <div  *ngFor="let Character of allCharacters"  >
+
+
+                <div class="card text-white bg-warning mb-3 flex " style="max-width: 18rem;">
+                    <div class="card-header">Characters</div>
+                    <div class="card-body">
+                      <h5 class="card-title">{{Character.aliases[0]}}</h5>
+                      <p class="card-text">  </p>
+                      <a  [routerLink]="['/characters',Character.url]" class="btn btn-primary">Details</a>
+                    </div>
+              
+            
+                       
+                      
+                      
+              
+              </div>  
+            
+</div>
+
+
+
+
+
+
+
+
+   
+
+

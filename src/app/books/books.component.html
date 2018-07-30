@@ -1,0 +1,32 @@
+<div class="flex-container house-container">
+    
+
+
+
+        
+    <div  *ngFor="let book of allbooks" >
+
+
+            <div class="card text-white bg-success mb-3 flex" style="max-width: 18rem;">
+                <div class="card-header"></div>
+                <div class="card-body">
+                  <h5 class="card-title">{{book.name}}</h5>
+                  <p class="card-text"> {{book.publisher}}  </p>
+                  <a  [routerLink]="['/books',book.url]" class="btn btn-primary">Details</a>
+                </div>
+          
+              
+                    
+                  
+                 
+          
+          </div>  
+        
+    
+    </div>
+
+
+</div>
+
+
+           

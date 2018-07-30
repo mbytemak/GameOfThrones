@@ -1,0 +1,61 @@
+.buttons{
+
+padding: 10% 10% 10% 10%;
+
+align:center;
+border: 3px solid black;
+
+}
+.button{
+
+border: 2px solid yellow;
+
+}
+.flex-container{
+
+    display: flex;
+
+    flex-wrap: wrap;
+    height: 30vh;
+    width: 100%;
+    
+
+    
+}
+.flex{
+
+height: 15vh;
+width:100%;
+align-items:center;
+flex-direction: row;
+flex-wrap: wrap;
+
+justify-content: space-between;
+
+
+}
+.header{
+border: 2px solid whitesmoke;
+    height: 15vh;
+    width:100%;
+    
+}
+.header a{
+
+height: 15vh;
+font-size: 7vh;
+align:center;
+width:100%
+
+
+}
+.flex a{
+
+
+height: 100%;
+width: 25%;
+font-size: 3vh;
+
+
+
+}
